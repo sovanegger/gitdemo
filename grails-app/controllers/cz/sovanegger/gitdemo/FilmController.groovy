@@ -16,7 +16,8 @@ class FilmController {
     }
 
     def show(Film filmInstance) {
-        respond filmInstance
+        println 'ahoj'
+		respond filmInstance
     }
 
     def create() {
